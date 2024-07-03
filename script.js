@@ -57,7 +57,7 @@ function checkWinner() {
         (arr[2] != null && arr[2] == arr[4] && arr[4] == arr[6])
     ) {
         gameActive = false;
-        resultElement.innerHTML = `Winner is ${currentPlayer}`;
+        resultElement.innerHTML = `Aayushi is ${currentPlayer}`;
         resultElement.classList.add('winner');
         startFireworks();
         setTimeout(resetGame, 5000); // Restart the game after 5 seconds
